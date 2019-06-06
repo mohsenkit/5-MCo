@@ -1,3 +1,10 @@
+@font-face{
+    font-family: MyBYekan;
+    src: url("../fonts/Yekan.eot") format("eot"),
+    url("../fonts/Yekan.woff") format("woff"),
+    url("../fonts/Yekan.ttf") format("truetype");
+}
+
 /* General Styles */
 .clear{
     clear: both;
@@ -14,9 +21,12 @@ a:hover{
 
 body{
     direction: rtl;
-    font-family: Tahoma ,sans-serif;
+    font-family: MyBYekan ,sans-serif;
     font-size: 12px;
     background: #c5c5c5;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
 }
 
 ul{
@@ -24,3 +34,89 @@ ul{
     margin: 0;
     list-style: none;
 }
+
+h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 900px;
+    margin: auto;
+    direction: rtl;
+}
+
+/* Navigation Section */
+
+#nav,#newsletter{
+    background: #37474f;
+    height: 70px;
+}
+
+#nav h1{
+    float: right;
+    margin-top: 20px;
+}
+
+#nav ul{
+    float: left;
+    margin-top: 20px;
+}
+
+#nav ul li{
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+}
+
+#nav ul li a{
+    padding: 5px;
+    margin: 0px 5px;
+    color: white;
+    font-size: 16px;
+}
+
+#nav ul li a:hover{
+    background: white;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+
+}
+
+#nav span{
+    color: white;
+
+}
+
+#bigSection{
+    width:100vw;
+    height: 57.5vw;
+    min-height: 600px;
+    text-align: center;
+    background-image: url("../images/peykan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center;
+    padding: 30px 0px;
+
+}
+#bigSection .title,.subtitle,.desc{
+    background: rgba(0,0,0,0.3);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#bigSection .title{
+    font-size: 50px;
+}
+
+#bigSection .subtitle{
+
+}
+
+#bigSection .desc{
+
+}
+
