@@ -1,0 +1,26 @@
+/* General Styles */
+.clear{
+    clear: both;
+}
+
+a{
+    color: #0288d1;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #01579b;
+}
+
+body{
+    direction: rtl;
+    font-family: Tahoma ,sans-serif;
+    font-size: 12px;
+    background: #c5c5c5;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
