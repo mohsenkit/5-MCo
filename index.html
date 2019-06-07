@@ -28,7 +28,7 @@
 
   <div class="container">
     <h2 class="title">گالری اتومبیل خسروانی</h2>
-    <h3 class="subtitle">بهترین <span id="typed">اتومبیل های از رده خارج ایران</span></h3>
+    <h3 class="subtitle">بهترین <span id="typed"></span></h3>
     <p class="desc">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها
       و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع
       با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و
@@ -107,20 +107,20 @@
 <section id="cars">
   <h2>اخرین خودروهای ما</h2>
   <div class="carContainer">
-    <div class="section"><img src="images/pars.jpg" alt=""></div>
-    <div class="section"><img src="images/pride.jpg" alt=""></div>
-    <div class="section"><img src="images/206.jpg" alt=""></div>
-    <div class="section"><img src="images/206.jpg" alt=""></div>
-    <div class="section"><img src="images/206.jpg" alt=""></div>
-    <div class="section"><img src="images/206.jpg" alt=""></div>
-    <div class="section"><img src="images/206.jpg" alt=""></div>
-    <div class="section"><img src="images/206.jpg" alt=""></div>
-    <div class="section"><img src="images/206.jpg" alt=""></div>
-    <div class="section"><img src="images/206.jpg" alt=""></div>
-    <div class="section"><img src="images/pride.jpg" alt=""></div>
-    <div class="section"><img src="images/pars.jpg" alt=""></div>
-    <div class="section"><img src="images/206.jpg" alt=""></div>
-    <div class="section"><img src="images/pride.jpg" alt=""></div>
+    <div><img src="images/pars.jpg" alt=""></div>
+    <div><img src="images/pride.jpg" alt=""></div>
+    <div><img src="images/206.jpg" alt=""></div>
+    <div><img src="images/206.jpg" alt=""></div>
+    <div><img src="images/206.jpg" alt=""></div>
+    <div><img src="images/206.jpg" alt=""></div>
+    <div><img src="images/206.jpg" alt=""></div>
+    <div><img src="images/206.jpg" alt=""></div>
+    <div><img src="images/206.jpg" alt=""></div>
+    <div><img src="images/206.jpg" alt=""></div>
+    <div><img src="images/pride.jpg" alt=""></div>
+    <div><img src="images/pars.jpg" alt=""></div>
+    <div><img src="images/206.jpg" alt=""></div>
+    <div><img src="images/pride.jpg" alt=""></div>
   </div>
 
 </section>
@@ -147,17 +147,12 @@
       autoplay: true,
       autoplaySpeed: 1000,
       dots: true,
-      slidesToScroll: 3
+      slidesToScroll: 1,
+      arrows: false
     });
   });
 
-  var typed = new Typed('#typed', {
-    strings: ["ماشین های روز دنیا", " خدمات مشتریان", "تعمیرات حرفه‌ای", "پشتیبانی"],
-    typeSpeed: 40,
-    startDelay: 1000,
-    backSpeed: 20,
-    loop: true
-  });
+
 
 
   var typed = new Typed('#teamTyped', {
@@ -165,6 +160,13 @@
     typeSpeed: 40,
     backSpeed: 20,
     showCursor: false,
+    loop: true
+  });
+
+  var typed = new Typed ('#typed',{
+    strings: ["متن اول","متن دوم","متن سوم"],
+    typeSpeed: 50,
+    backSpeed: 50,
     loop: true
   });
 </script>
